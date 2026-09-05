@@ -1,8 +1,15 @@
-print("Hi. Welcome to the program.")
+import keyword
+print("MY PERSONAL GOAL PLAN")
 
-name = input("I want to know more about you. What's your name? ")
-location = input("What is the nearest city to you? ")
-sport = input("What is your favourite sport? ")
+name = input("What's your name? ")
+goal = input("What skill do you want to work on? ")
+month = input("What month do you want to complete this by? ")
+time = int(input("How much time (in minutes) do you want to spend each day? "))
+print("\n")
+print("Thank you", name, end=". ")
+print("Here is a one sentence summary of what you have told me:")
 
-print("Okay", name, "I will be finding the nearest", sport, "games in", location + "...\n")
-print("There are no results,\nsince I haven't fully developed.")
+print("You want to work on", goal, "for", time, "minutes each day until", month + ".\nGood luck!\n")
+
+print("Registered ® by Fateh Hundal")
+print(keyword.kwlist)
